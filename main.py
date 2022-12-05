@@ -1,6 +1,4 @@
-"""
-
-"""
+"""Simple tool to generate Minecraft whitelist files using logs from multiple server instances"""
 import gzip
 import requests
 import saveas

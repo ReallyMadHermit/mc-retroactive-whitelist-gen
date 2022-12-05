@@ -13,10 +13,10 @@ It was written using Python 3.10 on Windows, but it's simple enough that it prob
 
 ## Usage
 
-1. Make sure you have the dependencies.
-2. Replace the contents of **target_folders.txt** with the log folder path(s) you wish to search. I've left some full paths in the file as an example.
-3. Run **main.py**. If it's working correctly, it should start streaming commentary as it works, including errors.
-4. Check the resulting **whitelist.json** file for accuracy and prune any undesirables.
-5. Distribute said file among your server(s).
+1. Make sure you have the dependencies, and that all files from this repository are in the same folder.
+3. Replace the contents of **target_folders.txt** with the log folder path(s) you wish to search. I've left some full paths in the file as an example.
+4. Run **main.py**. If it's working correctly, it should start streaming commentary as it works, including errors.
+5. Check the resulting **whitelist.json** file for accuracy and prune any undesirables.
+6. Distribute said file among your server(s).
 
 You'll still need to enable the whitelist on your server, but this handles the hassle of whitelisting all your players.
